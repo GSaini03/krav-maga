@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>krav Maga for Women</title>
+    <style>
+      body {
+        background: rgb(245, 226, 190);
+        border-radius: 30px;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+      }
+
+      h2 {
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      hr {
+        max-width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-style: dashed;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        width: 600px;
+        max-width: 100%;
+        border-radius: 30px;
+      }
+
+      .strong {
+        text-align: center;
+        font-family: sans-serif;
+      }
+
+      p {
+        text-align: center;
+        font-size: 18px;
+        margin: auto;
+        line-height: 1.5;
+        font-family: sans-serif;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        padding: 20px 40px;
+        border: 1px solid rgb(235, 97, 4);
+        color: #fb5c47;
+
+        border-radius: 40px;
+        box-shadow: 5px 5px 10px rgb(125, 93, 61);
+        font-size: 17px;
+        transition: all 200ms ease-in-out;
+        background-color: #f7d5a1;
+      }
+
+      button:hover {
+        background-color: #f6c18c;
+        opacity: 0.9;
+        cursor: pointer;
+      }
+
+      .container {
+        margin: 0 auto;
+        max-width: 600px;
+        padding: 20px 50px;
+        border-radius: 20px;
+        background: linear-gradient(
+          87.4deg,
+          rgb(255, 241, 165) 1.9%,
+          rgb(221, 142, 89) 49.7%,
+          rgb(83, 54, 54) 100.5%
+        );
+      }
+
+      .learn-more {
+        font-size: 12px;
+      }
+
+      .learn-more:hover {
+        font-size: 12px;
+      }
+
+      .coder {
+        font-size: 12px;
+        color: #71461b;
+      }
+      em {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Krav Maga</h1>
+
+      <h2>LEARN THE ULTIMATE DEFENSE SYSTEM FOR WOMEN</h2>
+
+      <hr />
+
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/046/072/original/Krav-Maga-effective-self-defense-for-women.png?1662984549"
+        alt=" Krav Maga for women "
+        width="400px"
+      />
+      <hr />
+
+      <br /><br />
+
+      <p>
+        <strong>What is Krav Maga?</strong>
+        <br /><br />
+
+        Krav Maga is not a form of martial art like Muay Thai or Karate.
+        Instead, it emphasises on instinctive movements and efficient
+        counterattacks, Krav Maga is the ideal self-defense system for any woman
+        regardless of strength, size or age. Targeting its easiest-to-learn and
+        most effective moves, Krav Maga for Women presents techniques and tips
+        that quickly give you the skills and mindset to defend yourself against
+        an attacker. As the official defensive tactics system of the Israeli
+        Defense Forces (IDF), Krav Maga has been battle-tested on the front
+        lines and backstreets. Krav Maga is not a traditional practice. The
+        system was developed in the 1930s by Emrich “Imi” Lichtenfeld. With Krav
+        Maga for Women, you can gain the physical and tactical tools to protect
+        yourself and loved ones. When learning Krav Maga, there won't be a lot
+        of moves to learn at one time. Instead, you will have to repeat the same
+        techniques over and over again. This is meant to build your muscle
+        memory. Hence, if the time comes when you need it, the moves would have
+        been your instinct.Krav Maga for Women makes it easy to learn the
+        world's best self-defense system, including: DISABLING STRIKES,
+        EFFECTIVE ESCAPES, REAL-WORLD DEFENSES.
+      </p>
+      <br />
+
+      <p class="learn-more">
+        Learn more about Krav Maga on
+
+        <a href=" https://salsamacho.com/krav-maga-for-women/ " target="_blank">
+          SalsaMacho
+        </a>
+      </p>
+      <br /><br />
+
+      <button class="register-button">👉Register Here Today!</button>
+
+      <br /><br />
+
+      <p class="coder">
+        This page was created by
+        <em> Geetanjali Saini </em>
+      </p>
+    </div>
+
+    <script>
+      function apply() {
+        let name = prompt("What is your name?");
+        let age = prompt("How old are you?");
+        let email = prompt("What is your email address?");
+
+        if (age >= 6) {
+          alert(" Thank you " + name + ", We'll be in touch!");
+        } else {
+          alert(" Sorry , " + name + " You can't apply!");
+        }
+      }
+      let registerButton = document.querySelector(".register-button");
+      registerButton.addEventListener("click", apply);
+    </script>
+  </body>
+</html>
